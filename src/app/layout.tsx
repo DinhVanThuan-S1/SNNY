@@ -16,8 +16,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Birthday My Love ❤️ | Khánh Vy",
-  description: "Trang web kỷ niệm ngọt ngào dành tặng riêng cho Khánh Vy nhân ngày sinh nhật tuổi mới đong đầy yêu thương.",
+  title: "Happy Birthday My Love ❤️ | Hải Vy",
+  description: "Trang web kỷ niệm ngọt ngào dành tặng riêng cho Hải Vy nhân ngày sinh nhật tuổi mới đong đầy yêu thương.",
   openGraph: {
     title: "Happy Birthday My Love ❤️",
     description: "Cả thế giới của anh chỉ gói gọn lại bằng tên em.",
