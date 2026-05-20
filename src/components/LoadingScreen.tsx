@@ -13,15 +13,15 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onFinished }) => {
 
   useEffect(() => {
     // Elegant, natural speed variations in counting
-    const duration = 2400; // 2.4s loading
-    const intervalTime = 30;
+    const duration = 800; // 0.5s loading
+    const intervalTime = 16;
     const steps = duration / intervalTime;
     let currentStep = 0;
 
     const timer = setInterval(() => {
       currentStep++;
       const progressPercent = Math.min(100, Math.floor((currentStep / steps) * 100));
-      
+
       // Add a slight slowdown as it approaches 100 for suspense (Zeigarnik/Goal Gradient style)
       setProgress(progressPercent);
 
