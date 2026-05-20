@@ -1,0 +1,112 @@
+{
+  "girlFriendName": "Hải Vy",
+  "birthDate": "21/05",
+  "hero": {
+    "title": "Happy Birthday My Love ❤️",
+    "subtitle": "Hôm nay là ngày cả thế giới chào đón một thiên thần, và anh là người đàn ông may mắn nhất khi có em đồng hành trong cuộc đời này...",
+    "btnOpen": "Khám phá món quà bất ngờ"
+  },
+  "music": {
+    "audioUrl": "https://res.cloudinary.com/duciwkvqs/video/upload/v1779304903/N%C6%A0I_N%C3%80Y_C%C3%93_ANH_-_OFFICIAL_MUSIC_VIDEO_-_S%C6%A0N_T%C3%99NG_M-TP_-_YouTube_maqsun.mp3",
+    "youtubeFallback": "https://youtu.be/FN7ALfpGxiI?si=xCEaZJQdpgh69zzc",
+    "alertMessage": "Trạm sạc tình yêu đang chờ bạn chạm nhẹ để kích hoạt bản nhạc lãng mạn..."
+  },
+  "loveLetter": {
+    "title": "Gửi Hải Vy - Cả thế giới của anh",
+    "letterLines": [
+      "Hải Vy yêu dấu của anh,",
+      "Chúc mừng sinh nhật cô gái tuyệt vời nhất thế gian! Hôm nay là một ngày vô cùng đặc biệt - ngày mà một thiên thần ngọt ngào, ấm áp bước vào thế giới này và mang theo tất cả ánh sáng rực rỡ nhất chiếu rọi cuộc đời anh.",
+      "Cảm ơn em vì đã đến bên anh, vì đã luôn bao dung, thấu hiểu và đồng hành cùng anh qua mọi khoảnh khắc ngọt ngào lẫn những lúc thăng trầm. Nhìn lại chặng đường chúng ta đã đi qua, anh luôn thầm cảm ơn định mệnh đã cho mình được gặp nhau. Em không chỉ là người yêu, mà còn là người bạn đời tri kỷ, là nguồn động lực lớn lao nhất thúc đẩy anh cố gắng hoàn thiện bản thân mỗi ngày.",
+      "Mỗi nụ cười của em đều có năng lượng chữa lành kỳ diệu, xua tan hết mọi mệt mỏi trong anh. Mỗi cái nắm tay, mỗi chiếc ôm ấm áp của em đều khiến thế giới rộng lớn ngoài kia trở nên bình yên đến lạ thường.",
+      "Nhân ngày tuổi mới của em, anh chúc công chúa nhỏ của anh luôn luôn xinh đẹp, hạnh phúc, bình yên và giữ mãi nụ cười tỏa nắng trên môi. Mọi giông bão hay khó khăn ngoài kia cứ để anh gánh vác, việc của em chỉ cần là yêu anh và thật hạnh phúc khi ở bên anh thôi nhé!",
+      "Anh hứa sẽ luôn đứng ở đây, nâng niu, chở che và yêu thương em nhiều hơn mỗi ngày. Cả thế giới của anh nay thu nhỏ lại chỉ vừa bằng tên em.",
+      "Chúc mừng sinh nhật, bé Vy đáng yêu của anh! Anh yêu em rất nhiều! ❤️"
+    ]
+  },
+  "album": [
+    {
+      "id": 1,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305736/IMG_4590_bn9ypp.jpg",
+      "caption": "Ngày đầu tiên chạm mắt nhau, trái tim anh đã khẽ rung lên..."
+    },
+    {
+      "id": 2,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305736/IMG_4790_kizgml.jpg",
+      "caption": "Cái nắm tay đầu tiên rụt rè nhưng ấm áp vô ngần..."
+    },
+    {
+      "id": 3,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305737/IMG_4994_ar5a4w.jpg",
+      "caption": "Những buổi chiều cùng nhau dạo quanh những con phố quen..."
+    },
+    {
+      "id": 4,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305736/IMG_4308_qica9b.jpg",
+      "caption": "Mỗi nụ cười tỏa nắng của em đều khiến thế giới của anh bừng sáng..."
+    },
+    {
+      "id": 5,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305735/IMG_4114_lkcd9g.jpg",
+      "caption": "Góc quán cà phê nhỏ, cốc trà nóng và đôi mắt trong veo của em..."
+    },
+    {
+      "id": 6,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305735/IMG_4541_bcx6zb.jpg",
+      "caption": "Những hành trình đi xa, cùng ngắm hoàng hôn buông rực rỡ..."
+    },
+    {
+      "id": 7,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305734/att.46DQLHdCsX3tEEXh04K3Y7P6zc8dHBOM9YRnVik-TUY_oodqdj.jpg",
+      "caption": "Những buổi tối yên bình dưới ánh đèn vàng lấp lánh như ngàn vì sao..."
+    },
+    {
+      "id": 8,
+      "photoUrl": "https://res.cloudinary.com/duciwkvqs/image/upload/v1779305735/IMG_2884_zu1uqi.jpg",
+      "caption": "Và mở ra chặng đường tương lai ngập tràn hạnh phúc của chúng mình..."
+    }
+  ],
+  "timeline": [
+    {
+      "id": 1,
+      "date": "05/04/2026",
+      "title": "Khoảnh Khắc Đầu Tiên",
+      "description": "Anh tình cờ chạm mắt vào FB của em. Nụ cười tỏa nắng của em đã lập tức đánh cắp nhịp tim anh."
+    },
+    {
+      "id": 2,
+      "date": "07/05/2026",
+      "title": "Buổi Hẹn Hò Đầu Tiên",
+      "description": "Góc quán cafe nhỏ thoảng hương thơm dịu. Em bẽn lẽn ôm đóa hoa từ anh, hai ta trò chuyện quên cả thời gian."
+    },
+    {
+      "id": 3,
+      "date": "09/05/2026",
+      "title": "Lời Thổ Lộ Dưới Hoàng Hôn",
+      "description": "Tại bờ cát sóng vỗ rì rào, anh nắm chặt tay em và khẽ nói lời yêu. Em mỉm cười đồng ý, đánh dấu bắt đầu hành trình hạnh phúc."
+    },
+    {
+      "id": 4,
+      "date": "17/05/2026",
+      "title": "Dành trọn cả ngày cho nhau",
+      "description": "Dành trọn cả ngày đi với nhau, đi chơi khắp nơi, ăn bao nhiêu món ngon, cười nói vui vẻ quên cả lối về."
+    },
+    {
+      "id": 5,
+      "date": "21/05/2026",
+      "title": "Sinh Nhật Em Yêu",
+      "description": "Mừng tuổi mới rực rỡ của công chúa nhỏ. Anh hứa sẽ luôn đồng hành, yêu thương và che chở em suốt chặng đường phía trước."
+    }
+  ],
+  "wishes": [
+    "Mong mọi điều may mắn, ngọt ngào nhất thế gian sẽ đến với thiên thần nhỏ của anh!",
+    "Chúc bé yêu tuổi mới luôn xinh tươi, rạng rỡ và luôn nở nụ cười thật hạnh phúc nhé!",
+    "Dù thế giới có đổi thay, tình cảm và sự chở che anh dành cho em sẽ mãi vẹn nguyên.",
+    "Chúc bé Vy gặt hái được nhiều thành công, học giỏi và luôn là niềm tự hào của anh nha!",
+    "Anh yêu em nhiều hơn cả ngày hôm qua, nhưng sẽ luôn ít hơn ngày mai ❤️",
+    "Cảm ơn em vì đã xuất hiện và biến cuộc sống đơn điệu của anh thành một bức tranh rực rỡ sắc màu."
+  ],
+  "final": {
+    "closingMessage": "Cảm ơn em đã bước vào cuộc đời anh và lấp đầy nó bằng tình yêu ❤️",
+    "btnReplay": "Tái Hiện Lại Kỷ Niệm"
+  }
+}
