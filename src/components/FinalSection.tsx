@@ -116,7 +116,7 @@ export const FinalSection: React.FC<FinalSectionProps> = ({ onReplay }) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-800 dark:text-slate-100 font-serif leading-tight mb-8 px-2 select-none"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight font-serif leading-tight mb-8 px-2 select-none bg-gradient-to-br from-rose-500 via-pink-500 to-amber-400 bg-clip-text text-transparent drop-shadow-sm pb-2"
         >
           {birthdayData.final.closingMessage}
         </motion.h2>

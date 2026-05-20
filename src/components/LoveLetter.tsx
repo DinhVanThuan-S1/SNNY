@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useMotionValue, useSpring } from "framer-motion";
 import birthdayData from "@/data/birthdayData.json";
 import { Mail, MailOpen, X, Heart } from "lucide-react";
 
@@ -12,6 +12,32 @@ export const LoveLetter: React.FC = () => {
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
 
   const lines = birthdayData.loveLetter.letterLines;
+
+  // Ref for the scrollable letter container — used for auto-scroll
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  // Mouse tracking for the letter overlay
+  const rawX = useMotionValue(0);
+  const rawY = useMotionValue(0);
+  const x = useSpring(rawX, { stiffness: 120, damping: 22 });
+  const y = useSpring(rawY, { stiffness: 120, damping: 22 });
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleMouseMove = (e: MouseEvent) => {
+      rawX.set((e.clientX - window.innerWidth / 2) * 0.04);
+      rawY.set((e.clientY - window.innerHeight / 2) * 0.04);
+    };
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, [isOpen, rawX, rawY]);
+
+  // Auto-scroll to bottom whenever a new character or line is typed
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+    }
+  }, [typedLines, currentCharIndex]);
 
   // Typing effect for the active letter lines when opened
   useEffect(() => {
@@ -150,6 +176,7 @@ export const LoveLetter: React.FC = () => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.92, y: 40 }}
               transition={{ type: "spring", stiffness: 120, damping: 20 }}
+              style={{ x, y }}
               className="fixed inset-4 md:inset-auto md:left-1/2 md:-translate-x-1/2 md:top-[8%] md:w-full md:max-w-2xl md:max-h-[82vh] z-[100] bg-[#FFFDFD] dark:bg-slate-900 border border-rose-100/50 dark:border-rose-950/30 rounded-3xl shadow-2xl p-6 md:p-10 flex flex-col"
             >
               {/* Top Header Controls */}
@@ -170,7 +197,7 @@ export const LoveLetter: React.FC = () => {
               </div>
 
               {/* Letter text scrolling container */}
-              <div className="my-6 flex-1 overflow-y-auto pr-2">
+              <div ref={scrollRef} className="my-6 flex-1 overflow-y-auto pr-2">
                 <div className="space-y-4 text-slate-700 dark:text-slate-300 font-sans leading-relaxed text-base md:text-lg select-text whitespace-pre-line text-left">
                   {typedLines.map((line, idx) => (
                     <p key={idx} className="min-h-[1.5rem]">
